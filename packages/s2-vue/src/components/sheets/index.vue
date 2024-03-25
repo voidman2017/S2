@@ -16,6 +16,7 @@ export default defineComponent({
   props: [] as unknown as BaseSheetInitProps,
   emits: [] as unknown as BaseSheetInitEmits,
   setup(props, ctx) {
+    // https://cn.vuejs.org/api/composition-api-setup#setup-context
     const s2Ref = useExpose(ctx.expose);
 
     const sheetType = computed(() => {

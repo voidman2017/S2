@@ -1,0 +1,17 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "initConfig",
+  "steps": [
+    {
+      "file": "packages/s2-core/src/sheet-type/spread-sheet.ts",
+      "description": "dataCfg 即为组件入参 s2DataConfig",
+      "line": 149
+    },
+    {
+      "file": "packages/s2-vue/src/hooks/useSpreadSheet.ts",
+      "description": "初始化配置入口",
+      "line": 56
+    }
+  ],
+  "ref": "dev"
+}
