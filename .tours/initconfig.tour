@@ -11,6 +11,11 @@
       "file": "packages/s2-vue/src/hooks/useSpreadSheet.ts",
       "description": "初始化配置入口",
       "line": 56
+    },
+    {
+      "file": "packages/s2-core/src/data-set/pivot-data-set.ts",
+      "description": "解析data",
+      "line": 282
     }
   ],
   "ref": "dev"
