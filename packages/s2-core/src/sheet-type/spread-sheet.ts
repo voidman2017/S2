@@ -146,6 +146,11 @@ export abstract class SpreadSheet extends EE {
     options: S2Options,
   ) {
     super();
+    if(process.env.NODE_ENV === 'development'){
+      watch(this, 'options')
+      watch(this, 'dataCfg')
+      watch(this, 'dataSet')
+    }
     this.dataCfg = getSafetyDataConfig(dataCfg);
     this.options = getSafetyOptions(options);
     this.dataSet = this.getDataSet(this.options);
@@ -627,7 +632,7 @@ export abstract class SpreadSheet extends EE {
     ) as Total;
     const showSubTotals =
       totalConfig.showSubTotals &&
-      includes(totalConfig.subTotalsDimensions, dimension)
+        includes(totalConfig.subTotalsDimensions, dimension)
         ? totalConfig.showSubTotals
         : false;
     return {

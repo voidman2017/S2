@@ -14,8 +14,18 @@
     },
     {
       "file": "packages/s2-core/src/data-set/pivot-data-set.ts",
-      "description": "解析data",
-      "line": 282
+      "description": "解析data    \n\nuniq 是 lodash 提供的方法，这里通过它实现数组去重",
+      "line": 282,
+      "selection": {
+        "start": {
+          "line": 297,
+          "character": 11
+        },
+        "end": {
+          "line": 297,
+          "character": 15
+        }
+      }
     }
   ],
   "ref": "dev"

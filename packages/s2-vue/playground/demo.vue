@@ -91,7 +91,6 @@ const s2DataConfig: S2DataConfig = {
 const s2Options: S2Options = {
   width: 900,
   height: 480,
-  hierarchyType: 'tree'
 
 }
 

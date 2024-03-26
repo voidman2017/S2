@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "render",
+  "steps": [
+    {
+      "file": "packages/s2-core/src/sheet-type/pivot-sheet.ts",
+      "description": "渲染发起",
+      "line": 122,
+      "title": "渲染发起"
+    },
+    {
+      "file": "packages/s2-core/src/facet/base-facet.ts",
+      "description": "渲染列头",
+      "line": 1249,
+      "title": "渲染列头"
+    },
+    {
+      "file": "packages/s2-core/src/facet/header/col.ts",
+      "description": "渲染列头",
+      "line": 106,
+      "title": "渲染列头"
+    },
+    {
+      "file": "packages/s2-core/src/facet/base-facet.ts",
+      "description": "渲染角头",
+      "line": 1250,
+      "title": "渲染角头"
+    },
+    {
+      "file": "packages/s2-core/src/facet/base-facet.ts",
+      "description": "渲染分割线",
+      "line": 1251,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 1,
+          "character": 6
+        }
+      },
+      "title": "渲染分割线"
+    },
+    {
+      "file": "packages/s2-core/src/facet/base-facet.ts",
+      "description": "渲染行头",
+      "line": 1247,
+      "title": "渲染行头"
+    },
+    {
+      "file": "packages/s2-core/src/facet/header/row.ts",
+      "description": "渲染行头",
+      "line": 65,
+      "title": "渲染行头"
+    },
+    {
+      "file": "packages/s2-core/src/facet/pivot-facet.ts",
+      "description": "布局计算",
+      "line": 165,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 1,
+          "character": 8
+        }
+      },
+      "title": "布局计算"
+    }
+  ],
+  "ref": "dev"
+}
